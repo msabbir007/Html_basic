@@ -1,19 +1,56 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Forms_demo</title>
 </head>
+
 <body>
     <h1>Forms Demo</h1>
-    <form action="hello" >
-        <input type="text" placeholder="username">
-        <input type="password" placeholder="password">
-        <input type="color">
-        <input type="number" placeholder="enter a prime number">
+    <form action="userinfo">
+        <p>
+            <label for="username">Enter a Username</label>
+            <input id="username" type="text" placeholder="username" name="username">
 
+        </p>
+        <p>
+            <label for="pasword">Enter your password</label>
+            <input id="pasword" type="password" placeholder="password" name="password">
+        </p>
+        <p>
+            <label for="color">Enter your favrite color</label>
+            <input id="color" type="color" name="color">
+
+        </p>
+
+        <p>
+            <label for="number">Put your number</label>
+            <input id= "number "type="number" placeholder="enter a prime number" name="number">
+        </p>
+        <button type="text">submit</button>
     </form>
+    <form action="https://www.google.com/search">
+    <input type="text" name="q">
+    <button type="text">Search in google</button>
     
+    </form>
+
+    <h1>Radio button</h1>
+    <form action="dresssize/">
+
+    <p>
+        <label for="xs">XS:</label>
+        <input type="radio" name="size" id="xs" value="xs">
+        <label for="M">M:</label>
+        <input type="radio" name="size" id="M" value="M">
+        <label for="L">L:</label>
+        <input type="radio" name="size" id="L" value="L">
+    </p>
+    <button>submit</button>
+</form>
+
 </body>
+
 </html>
